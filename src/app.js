@@ -16,6 +16,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:5173",
+            "https://gemini-clone-vert-ten.vercel.app"
         ],
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
         allowedHeaders: ['Content-Type', 'Authorization']
